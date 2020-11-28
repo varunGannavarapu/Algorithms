@@ -5,29 +5,29 @@ The following repository is meant to serve as an introduction to commonly used d
 Below is a list of topics discussed. It is recommended that users follow along in the manner listed below, as some of the later topics do build upon earlier topics. It is assumed that those who reference this understand basic variable types and how to store information in arrays.
 
 1. Data Structures
-  a. Linked Lists
-  b. Union-Find
-  c. Stacks
-  d. Queues
-  e. Priority Queues
-  f. Binary Search Trees
-  g. Balanced Search Trees
-  h. Hash Tables
+    1. Linked Lists
+    2. Union-Find
+    3. Stacks
+    4. Queues
+    5. Priority Queues
+    6. Binary Search Trees
+    7. Balanced Search Trees
+    8. Hash Tables
 2. Sorting
-  a. Selection Sort
-  b. Insertion Sort
-  c. Merge Sort
-  d. Quick Sort
-  e. Shell Sort
-  f. Radix Sort
-  g. Topological Sort
+    1. Selection Sort
+    2. Insertion Sort
+    3. Merge Sort
+    4. Quick Sort
+    5. Shell Sort
+    6. Radix Sort
+    7. Topological Sort
 3. Searching
-  a. Breadth First Search
-  b. Depth First Search
-  c. Substring Search
-  d. Undirected Graphs
-  e. Directed Graphs
-  f. Minimum Spanning Trees
-  g. Shortest Path
+    1. Breadth First Search
+    2. Depth First Search
+    3. Substring Search
+    4. Undirected Graphs
+    5. Directed Graphs
+    6. Minimum Spanning Trees
+    7. Shortest Path
 4. Regular Expressions
 5. Data Compression
