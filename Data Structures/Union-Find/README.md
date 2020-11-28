@@ -5,7 +5,7 @@ Union-Find is an interpretation of disjoint sets. That is, we intend to take a s
 ## Overview of a Set
 For the purpose of a union-find, we consider a set to be some **Ω** number of items. Lets pretend we have some array of 5 integers, with each of the values equal to the index. In other words, at index 0, we have a value of 0, index 1 has a value of 1, etc.
 
-![Original Set](https://github.com/varunGannavarapu/Algorithms/Data Structures/imgs/arr_5_items_alt_uf.png)
+![alternativetext](Data Structures/imgs/arr_5_items_alt_uf.png)
 
 Now suppose we had elements 0 and 1 in our array of 5 integers to be in the same set. This is how we might depict it:
 
