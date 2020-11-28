@@ -27,3 +27,11 @@ As we can see below, we have a situation where we removed the first element from
 ### Searching
 
 Not all stack representations may allow for individuals to look and see what all is in the stack. We could allow this, simply by writing a method that traverses through the internal array and returns if the item exists in the array or not. What is standard however, is the principle of a *peek* method. This *peek* method is the same as *popping*, with the exception that we don't actually remove the item. We simply return the value of what is on top of the stack, but keep said item in the stack.
+
+## Linked List or ArrayList Representation
+An alternative approach to represent our stack using an internal linked list. On one hand, adding/removing elements is a lot easier to do, because we simply have to connect two pointers, those being the node we are adding and the current list. On the other hand, we may have issues with searching if an item is in the stack, getting a count of the number of items in our stack, and the amount of memory allocated, because we will never know the exact amount of memory allocated without counting how many nodes we have.
+
+In languages such as Java, having the internal item be an ArrayList may be more beneficial, because it allows for the benefits of indexing that arrays provide, namely the ability to search for items immediately. In addition, array lists will take care of the *doubling principle* in regards to their size as need be. On the other hand, they also allow for us to be able to quickly add/remove elements from our stack, and shift other elements accordingly.
+
+## Runtime Considerations
+When working with a stack, consider that any addition/removal will depend on what the internal structure is. Linked-List variations have a **O(1)** runtime for addition/removal, but an **O(n)** runtime for searching. Array representations will follow the opposite for each of these functions.
