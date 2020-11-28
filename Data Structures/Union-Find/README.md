@@ -1,6 +1,6 @@
 # Union-Find
 
-Union-Find is an interpretation of disjoint sets. That is, we intend to take a series of sets, and try to merge them to get as close to a line as possible. The overarching principle is that we have parents pointing to children, that allows us to quickly traverse through sets and find elements as fast as possible. We will go about building this structure, with an array of fixed size **n** as our base internal data structure. 
+Union-Find is an interpretation of disjoint sets. In other words, we intend to take a series of sets, and try to merge them to get as close to a line as possible. The overarching principle is that we have parents pointing to children, that allows us to quickly traverse through sets and find elements as fast as possible. We will go about building this structure, with an array of fixed size **n** as our base internal data structure. 
 
 ## Overview of a Set
 For the purpose of a union-find, we consider a set to be some **Ω** number of items. Lets pretend we have some array of 5 integers, with each of the values equal to the index. In other words, at index 0, we have a value of 0, index 1 has a value of 1, etc. Values within the array represent the location, and the indices will represent the value of the item (black is location, blue is value).
