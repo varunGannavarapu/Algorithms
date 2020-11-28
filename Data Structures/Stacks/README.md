@@ -8,21 +8,23 @@ Lets suppose we wanted to build our stack using an array. The first thing to con
 
 When adding to the stack, we want the newest item that is added to be in the first index. This means that all future items should be shifted over by one index. We call this concept *pushing*. Consider the example below, where we add a new item into the stack.
 
-[//]: <> (Add example)
+![alternativetext](https://github.com/varunGannavarapu/Algorithms/blob/main/Data%20Structures/imgs/add_stack.png)
 
 As we can see, we have added an element to the stack, and every item has shifted over by one. Now lets consider a new example, where we will use the aformentioned *doubling principle* for our array. When we add an element, the size of the array should now double from size **n** to size **2n**.
 
-[//]: <> (Add doubling example)
+![alternativetext](https://github.com/varunGannavarapu/Algorithms/blob/main/Data%20Structures/imgs/add_double_stack.png)
 
 ### Popping
 
 To remove an item from the stack, we will *pop* an element. What this means, is that we shall be removing the first element of the stack, and returning the value, while also moving all the elements forward. 
 
-[//]: <> (Add popping example)
+![alternativetext](https://github.com/varunGannavarapu/Algorithms/blob/main/Data%20Structures/imgs/remove_stack.png)
 
-As we can see below, we have a situation where we removed the first element from our list, and all our items shifted forward. One thing to consider however, is what we might want to do with our *doubling principle*. Suppose we remove an element, and now all the elements take up half the space in the array. There is no reason for us to allocate the excess memory, so we could do the inverse of our *doubling principle*, which we'll call the *halving principle*. Consider the example below.
+As we can see above, we have a situation where we removed the first element from our list, and all our items shifted forward. One thing to consider however, is what we might want to do with our *doubling principle*. Suppose we remove an element, and now all the elements take up half the space in the array. There is no reason for us to allocate the excess memory, so we could do the inverse of our *doubling principle*, which we'll call the *halving principle* The example below demonstrates this
 
-[//]: <> (add popping and halving example)
+![alternativetext](https://github.com/varunGannavarapu/Algorithms/blob/main/Data%20Structures/imgs/remove_half_stack.png)
+
+As we can see above, we have removed items to the point where we fill up exactly half the array, so we cut its size down by half.
 
 ### Searching
 
